@@ -20,7 +20,7 @@ let mediaStreamSource = null
  * @param {number} [clipLag=750] - Duration in ms for how long "clipping" indicator shows.
  * @returns {ScriptProcessorNode} Resulting configured processor.
  */
-function createAudioMeter (audioContext, clipLevel= 0.98, averaging = 0.95, clipLag = 750) {
+function createAudioMeter (audioContext, clipLevel = 0.98, averaging = 0.95, clipLag = 750) {
   // TODO - createScriptProcessor() is deprecated https://developer.mozilla.org/en-US/docs/Web/API/BaseAudioContext/createScriptProcessor
   const processor = audioContext.createScriptProcessor(512)
   processor.onaudioprocess = volumeAudioProcess

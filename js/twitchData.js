@@ -71,11 +71,11 @@ const messageData = {
   },
   positive: {
     '300 IQ': 1,
-    'ez': 1,
-    'GG': 1,
+    ez: 1,
+    GG: 1,
     'holy shit': 1,
-    'SAVED': 1,
-    'WHAT': 1,
+    SAVED: 1,
+    WHAT: 1,
     '[4Head]': 1,
     '[5Head]': 1,
     '[catJAM]': 1,
@@ -89,19 +89,19 @@ const messageData = {
     '[PogU]': 1,
     '[PogU][Clap]': 1,
     '[Pog]': 1,
-    '[<3]': 1,
+    '[<3]': 1
   },
   negative: {
-    'BOT': 5,
-    'gg': 1,
-    'HAHAHAHA': 1,
-    'LMAO': 1,
+    BOT: 5,
+    gg: 1,
+    HAHAHAHA: 1,
+    LMAO: 1,
     'My streamer [Sadge]': 1,
     'NA CS': 2,
-    'OMG': 1,
-    'RUINED': 1,
+    OMG: 1,
+    RUINED: 1,
     'so bad omg': 1,
-    'xD': 1,
+    xD: 1,
     '[4Head]': 1,
     '[BibleThump]': 1,
     '[D:]': 1,
@@ -123,8 +123,8 @@ const messageData = {
     'WEEBS OUT [DansGame]': 1,
     '[AYAYA][Clap]': 5,
     '[AYAYA][Clap][AYAYA][Clap][AYAYA][Clap]': 3,
-    '[AYAYA][Clap][AYAYA][Clap][AYAYA][Clap][AYAYA][Clap][AYAYA][Clap]': 3,
+    '[AYAYA][Clap][AYAYA][Clap][AYAYA][Clap][AYAYA][Clap][AYAYA][Clap]': 3
   }
 }
 
-let messageDataSum = {}
+const messageDataSum = {}
