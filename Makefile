@@ -7,8 +7,18 @@ help:             ## Show the help.
 
 
 .PHONY: install
-install:          ## Install dependencies.
+install:          ## Install all dependencies.
+	rm -rf node_modules
+	touch package-lock.json
+	rm package-lock.json
 	npm install
+
+.PHONY: node-modules
+node-modules:     ## Rebuild node_modules/ folder with only "dependencies", not "devDependencies".
+	rm -rf node_modules
+	touch package-lock.json
+	rm package-lock.json
+	npm install --omit=dev
 
 .PHONY: lint
 lint:             ## Run all linting commands.
